@@ -1,6 +1,6 @@
 package com.employee.employeeserverservicerest.repository;
 
-import java.util.List;;
+import java.util.List;
 
 import com.employee.employeeserverservicerest.model.Employee;
 

@@ -51,8 +51,10 @@ public class EmployeeRepositoryImpl implements EmployeeRepositoryCustom{
         predicatesList.toArray(finalPredicates);
         cq.where(finalPredicates);
 
+        // set up offset
         TypedQuery<Employee> tq = em.createQuery(cq).setFirstResult(offset);
 
+        // set up limit
         if (limit != null) {
             tq.setMaxResults(limit);
         }
