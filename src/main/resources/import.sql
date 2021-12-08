@@ -1,0 +1,5 @@
+INSERT INTO `employee` (NAME, SALARY) VALUES ('Amy', 2000.001);
+INSERT INTO `employee` (NAME, SALARY) VALUES ('Bob', 1000.05);
+INSERT INTO `employee` (NAME, SALARY) VALUES ('Casey', 3000.99);
+INSERT INTO `employee` (NAME, SALARY) VALUES ('Wei Boon', 3999.99);
+INSERT INTO `employee` (NAME, SALARY) VALUES ('Zenna', 4000.01);
